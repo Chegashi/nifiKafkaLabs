@@ -1,9 +1,6 @@
 
-# docker-kafka-nifi
-A very simple setup for running a kafka cluster using docker images. It requires a zookeeper cluster and I have provided the same in another repo.
-
-# The Need
-There are lots of kafka docker images that help you to run a standalone version (with an inbuilt zookeeper or not) on a single node. These images help you to have a single node of kafka and doesn't provide you with high availability. This particular repo helps you in achieving a cluster (high availability) using simple scripts and docker.
+# docker-nifi
+A simple setup for running NiFi using docker images.
 
 # Prerequisites
 
@@ -14,7 +11,7 @@ Docker
 git clone Chegashi/nifiKafkaLabs
 ```
 
-# Setting up a kafka cluster
+# Set up
 ```
 cd nifiKafkaLabs
 docker-compose up
