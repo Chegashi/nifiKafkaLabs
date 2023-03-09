@@ -31,15 +31,6 @@ line 2 column 1
 docker exec -it [nifi_container_name] /bin/sh
 ```
 
-```
-
-```
-
-get :
-Generated Username [******************************]
-Generated Password [******************************]
-
-```
 open "https://localhost:8443/nifi"
 ```
 
