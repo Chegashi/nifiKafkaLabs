@@ -32,7 +32,7 @@ docker exec -it [nifi_container_name] /bin/sh
 ```
 
 open "https://localhost:8443/nifi"
-```
+
 
 ```
 docker exec nifikafkasmm_kafka_1 kafka-topics --bootstrap-server nifikafkasmm_kafka_1:9092 --create --topic quickstart
