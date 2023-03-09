@@ -28,6 +28,14 @@ line 2 column 1
 ![alt text](./image.png)
 
 ```
+```
+
+get :
+Generated Username [******************************]
+Generated Password [******************************]
+
+```
+```
 docker exec -it [nifi_container_name] /bin/sh
 ```
 
