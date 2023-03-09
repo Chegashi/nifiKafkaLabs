@@ -30,9 +30,9 @@ line 2 column 1
 ```
 ```
 
-get :
-Generated Username [******************************]
-Generated Password [******************************]
+get : cat /opt/nifi/nifi-current/logs/nifi-app.log | grep "Generated"
+Generated Username ******************************
+Generated Password ******************************
 
 ```
 ```
