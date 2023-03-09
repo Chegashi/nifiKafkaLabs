@@ -47,4 +47,10 @@ open "https://localhost:8443/nifi"
 docker exec nifikafkasmm_kafka_1 kafka-topics --bootstrap-server nifikafkasmm_kafka_1:9092 --create --topic quickstart
 ```
 
-
+# Useful Docker Aliases that Make Docker Less Complex
+```
+alias dockerstp='docker stop $(docker ps -aq)'
+alias dockermc='docker rm -f $(docker ps -aq)'
+alias dockermi='docker rmi -f $(docker images -aq)'
+alias dockercl='dockerstp ; dockermc ; dockermi ; dockermvlm ; dockermnet'
+```
