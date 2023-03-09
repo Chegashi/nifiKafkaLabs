@@ -32,7 +32,7 @@ docker exec -it [nifi_container_name] /bin/sh
 ```
 
 ```
-cat /opt/nifi/nifi-current/logs/nifi-app.log | grep "Generated"
+
 ```
 
 get :
@@ -52,5 +52,7 @@ docker exec nifikafkasmm_kafka_1 kafka-topics --bootstrap-server nifikafkasmm_ka
 alias dockerstp='docker stop $(docker ps -aq)'
 alias dockermc='docker rm -f $(docker ps -aq)'
 alias dockermi='docker rmi -f $(docker images -aq)'
+alias dockermvlm='docker volume rm $(docker volume ls -q)'
+alias dockermnet='docker network rm  $(docker network ls -q)'
 alias dockercl='dockerstp ; dockermc ; dockermi ; dockermvlm ; dockermnet'
 ```
