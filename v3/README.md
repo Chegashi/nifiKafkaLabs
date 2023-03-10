@@ -2,6 +2,12 @@
 - Apache Ranger Docker Cluster for POC with Hadoop Environment(HDFS, Hive, Presto)
 
 # How to start
+
+```
+git clone https://github.com/Chegashi/nifiKafkaLabs.git
+cd nifiKafkaLabs/v3
+```
+
 ```
 docker network create ranger-env
 ```
