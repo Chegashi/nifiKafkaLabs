@@ -6,6 +6,9 @@
 ```
 git clone https://github.com/Chegashi/nifiKafkaLabs.git
 cd nifiKafkaLabs/v3
+
+docker volume rm $(docker volume ls -q) 2> /dev/null
+docker network rm  $(docker network ls -q) 2> /dev/null
 ```
 
 ```
